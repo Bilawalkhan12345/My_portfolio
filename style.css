@@ -1,0 +1,57 @@
+#HEAD{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    opacity: 80%;
+    font-size: 500%;
+    background: linear-gradient(to right, rgb(17, 124, 143), rgb(17, 16, 29));
+
+}
+body{
+    background: url(sl_031420_28950_10.jpg);
+    background-repeat:repeat;
+    background-size: cover; 
+    background-position: center center; 
+    height: 100vh; 
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
+
+    
+}
+
+section{
+    background: linear-gradient(to right, rgb(17, 124, 143), rgb(17, 16, 29));
+    text-align: center;
+    opacity: 90%;
+    font-size: 200%;
+    color: white;
+}
+nav {
+    font-size: 130%; 
+    text-decoration: none; 
+    background: linear-gradient(to right, rgb(46, 46, 46), rgb(122, 122, 122));
+    opacity: 80%;
+    padding: 15px 30px; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: left; 
+    align-items: center; 
+}
+
+nav a {
+    color: rgb(218, 218, 218);
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin: 0 15px; 
+    display: inline-block; 
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff; 
+    background-color: #000000; 
+    border-radius: 5px;
+}
+
